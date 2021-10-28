@@ -6,7 +6,7 @@ import Nav from '..';
 
 afterEach(cleanup);
 
-describe('Nav component', () => {
+describe('Nav component renders', () => {
     it('renders', () => {
         render(<Nav />);
     });
@@ -17,7 +17,6 @@ describe('Nav component', () => {
         expect(asFragment()).toMatchSnapshot();
     });
 })
-
 describe('emoji is visible', () => {
     it('inserts emoji into the h2', () => {
         const { getByLabelText } = render(<Nav />);
