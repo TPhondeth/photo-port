@@ -1,4 +1,4 @@
-# Oh Snap
+# Oh Snap!
 
 ## Licensing:
 [![license](https://img.shields.io/badge/license-MIT-brightgreen)](https://shields.io)
